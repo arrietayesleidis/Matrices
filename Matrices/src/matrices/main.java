@@ -15,7 +15,7 @@ public class main {
            {3, 5, 2, 8}
         };
 
-         //mostrar matriz
+         
         System.out.println("matriz:");
         for(int i=0; i<4; i++){
             for(int j=0; j<0x4; j++){
@@ -24,13 +24,13 @@ public class main {
             System.out.println(); 
         }
 
-        // diagonal principal
+        
         System.out.println("diagonal principal:");
         for(int i=0; i<4; i++){
             System.out.print(a[i][i]+" ");
         }
 
-        // diagonal secundaria
+        
         System.out.println("\n diagonal secundaria: ");
         for(int i=0; i<4; i++){
             System.out.print(a[i][3-i]+" ");
